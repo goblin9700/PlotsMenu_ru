@@ -1,0 +1,37 @@
+name: PlotsMenu
+version: 2.0
+main: me.tekoh.plotsmenu.Core
+description: A nice GUI for PlotMe, Plotz and ofcourse, PlotSquared.
+
+commands:
+     plotsmenu:
+         usage: /<command>
+         description: Main Command.
+         aliases: [pm, plotmenu, menu]
+     aplotsmenu:
+         usage: /<command>
+         description: Admin Command.
+         aliases: [apm, ap, amenu]
+
+permissions:
+    plotsmenu.compass:
+        description: Be given a compass when you join!
+        default: op
+    plotsmenu.admin.commands:
+        description: Admin commands!
+        default: op
+    plotsmenu.admin.give:
+        description: Give a player the compass, if they lost it!
+        default: op
+    plotsmenu.admin.info:
+        description: Admin info.
+        default: op
+    plotsmenu.command.plotsmenu:
+        description: Main command.
+        default: op
+    plotsmenu.command.news:
+        description: View news about the plugin (rarely changed)
+        default: op
+    plotsmenu.command.menu:
+        description: View the menu
+        default: op

@@ -1,0 +1,29 @@
+#Thank you for using PlotsMenu! I will guide you through the config and tell you what everything does.
+
+messages: #To view all of these ingame, type /aplotsmenu info
+  maincolour: 'a' #The main colour is what you will see most of, and used if at all possible, this has no affect on the custom messages that you set.
+  secondarycolour: 'b' #The secondary colour is what you will see if another colour is required to show something/make something look pretty.
+  invalidargs: '%prefix% §cInvalid argument.' #invalidargs is sent the the player when the use an invalid argument!
+  prefix: '&8[&cPlotsMenu&8]' #This is the prefix, use %prefix% to place it anywhere in a message!
+  nopermission: '%prefix% &cYou do not have permission to do this.' #nopermission is the message that pops up when a user attempts to do a command that they're not allowed to!
+  nottravellingother: '%prefix% &cError!' #This is the message that pops up when a user tries to stop travelling, when they're not!
+  nottravellingown: '%prefix% &cError!' #This is the message that pops up when a user tries to stop travelling to their own plot, when they're not!
+  cancel: '%prefix% &cCancelled!' #This is the message that pops up when a user stops travelling or removing a friend.
+  notremoving: '%prefix% &cError!' #This is the message that pops up when a user tries to stop removing a friend, when they're not!
+  notadding: '%prefix% &cError!' #This is the message that pops up when a user tries to stop adding a friend, when they're not!
+  claimauto: '&aClaim a plot' #This is the name of the 'claim a plot' option in the menu. CURRENTLY NOT IN EFFECT
+  claimcurrent: '&aClaim this plot' #This is the name of the 'claim current' option in the menu. CURRENTLY NOT IN EFFECT
+  addaplayer: '&aAdd a player to your plot' #This is the name of the 'add a player' option in the menu. CURRENTLY NOT IN EFFECT
+  removeaplayer: '&aRemove a player from your plot' #This is the name of the 'remove a player' option in the menu. CURRENTLY NOT IN EFFECT
+  gotoyourplot: '&aGo to your own plot' #This is the name of the 'Go to your plot' option in the menu. CURRENTLY NOT IN EFFECT
+  deleteyourplot: '&aDelete your plot' #This is the name of the 'Delete your plot' option in the menu. CURRENTLY NOT IN EFFECT
+  travelother: '&aTravel to another plot' #This is the name of the "Travel to another plot" option in the menu. CURRENTLY NOT IN EFFECT
+  closemenu: '&cClose menu' #This is the name of the 'Close menu' option in the menu. CURRENTLY NOT IN EFFECT
+  spacer: '&8&oSpacer' #This is the name of the spacers. CURRENTLY NOT IN EFFECT
+
+settings:
+  itemname: '&cPlotsMenu' #This is the name of the item you are given.
+  version: 2.0 #DO NOT EDIT THIS.#
+  forcecompass: 'false' #The user cannot get rid of the compass unless they clear their inventory.
+  givecompass: 'true' #Should we give a user the compass when they join?
+  inventoryname: '&aPlotsMenu' #The title of the menu. CURRENTLY NOT IN EFFECT
